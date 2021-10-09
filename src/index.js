@@ -21,7 +21,7 @@ const formatEmoji = (emoji) => {
 
 client.on("ready", () => {
 	console.log(`[Snipesy] :: Logged in as ${client.user.tag}.`);
-	client.user.setActivity('your messages', { type: 'Watching' });
+	client.user.setActivity('your messages', { type: 'WATCHING' });
 });
 
 client.on("messageDelete", async (message) => {
