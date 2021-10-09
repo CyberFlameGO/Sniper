@@ -20,7 +20,8 @@ const formatEmoji = (emoji) => {
 };
 
 client.on("ready", () => {
-	console.log(`[sniper] :: Logged in as ${client.user.tag}.`);
+	console.log(`[Snipesy] :: Logged in as ${client.user.tag}.`);
+	client.user.setActivity('your messages', { type: 'Watching' });
 });
 
 client.on("messageDelete", async (message) => {
@@ -116,4 +117,3 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 client.login(token);
-client.user.setActivity('your messages', { type: 'Watching' });
