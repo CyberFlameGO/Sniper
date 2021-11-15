@@ -1,5 +1,5 @@
 {
-	"name": "sniper",
+	"name": "Sniper",
 	"version": "1.0.0",
 	"description": "An easy to run simple bot that lets you snipe messages in your Discord server.",
 	"main": "src/index.js",
@@ -10,17 +10,20 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/DankMemer/sniper.git"
+		"url": "git+https://github.com/CyberFlameGO/Sniper.git"
 	},
 	"author": "badosz0 <m@badosz.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/DankMemer/sniper/issues"
+		"url": "https://github.com/CyberFlameGO/Sniper/issues"
 	},
-	"homepage": "https://github.com/DankMemer/sniper#readme",
+	"homepage": "https://github.com/CyberFlameGO/Sniper#README",
 	"dependencies": {
 		"@discordjs/rest": "^0.1.0-canary.0",
-		"discord-api-types": "^0.22.0",
-		"discord.js": "^13.1.0"
+		"discord-api-types": "^0.24.0",
+		"discord.js": "^13.1.1"
+	},
+	"devDependencies": {
+		"prettier": "^2.4.1"
 	}
 }
